@@ -1,0 +1,100 @@
+*{
+    font-family: "Montserrat", "Avenir";
+}
+
+body{
+    background-color: #232323;
+    margin: 0;
+}
+
+h1{
+    color: white;
+      text-align: center;
+      margin: 0px;
+      font-weight: normal;
+      text-transform: uppercase;
+      background-color:steelblue; 
+      display: block;
+}
+#colorDisplay {
+    text-transform: uppercase;
+    font-size: 200%;
+}
+
+#message{
+    color: black;
+    display: inline-block;
+   width: 20%;
+   
+    
+     
+}
+
+#stripe{
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    
+    
+}
+.selected{
+    background-color: steelblue;
+    border: none;
+    color: white;
+    
+}
+
+
+
+button{
+    text-decoration: none;
+    border:none;
+    outline-style: none;
+    height: 100%;
+    color: steelblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition-duration: 200ms;
+    background-color:white;
+    display: inline-block;
+}
+
+#reset{
+    align-items: flex-start;
+    
+    
+}
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.square {
+    float: left;
+    width: 30%;
+    height: 30%;
+    padding-bottom: 30%;
+    background-color: cadetblue;
+    margin: 1%;
+    border-radius: 10%;
+    transition-duration: 700ms;
+   
+}
+
+
+
+
+
+
